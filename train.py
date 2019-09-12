@@ -232,6 +232,8 @@ def main(gpu, ngpus_per_node, args):
 
     train(training_dbs, validation_db, system_config, model, args)
 
+# os.environ["CUDA_VISIBLE_DEVICES"] = '0'
+
 if __name__ == "__main__":
     args = parse_args()
 
