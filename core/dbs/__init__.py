@@ -4,8 +4,14 @@
 #     "COCO": COCO
 # }
 
-from .voc import VOC
+# from .voc import VOC
+#
+# datasets = {
+#     "VOC": VOC
+# }
+
+from .com import COM
 
 datasets = {
-    "VOC": VOC
+    "COM": COM
 }
