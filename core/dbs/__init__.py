@@ -1,6 +1,11 @@
-from .coco import COCO
+# from .coco import COCO
+#
+# datasets = {
+#     "COCO": COCO
+# }
+
+from .voc import VOC
 
 datasets = {
-    "COCO": COCO
+    "VOC": VOC
 }
-
